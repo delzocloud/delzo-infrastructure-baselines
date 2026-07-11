@@ -25,10 +25,12 @@ jobs:
           echo "Extracting release notes for $VERSION"
 
           # Pull the block between '## [VERSION]' and the next '## [' header.
+          # Literal index() matching avoids regex-escaping pitfalls with the brackets.
           awk -v ver="$VERSION" '
-            $0 ~ "^## \\[" ver "\\]" { capture=1; next }
-            capture && /^## \[/        { exit }
-            capture                    { print }
+            index($0, "## [" ver "]") == 1     { capture=1; next }
+            capture && index($0, "## [") == 1  { exit }
+            capture && /^\[[^]]+\]: http/      { next }   # skip link-reference lines
+            capture                            { print }
           ' CHANGELOG.md > release_notes.md
 
           # Trim leading/trailing blank lines.
