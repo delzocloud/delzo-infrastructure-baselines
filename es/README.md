@@ -345,5 +345,6 @@ principio:
 
 ---
 
-*Documento de referencia — versión 1. Publicado por [Delzo.cloud](https://delzo.cloud) bajo
-licencia [CC BY 4.0](../LICENSE). Recordá: es una guía de ejemplo, adaptala a tu infraestructura.*
+*Documento de referencia — versión **1.0.0** ([historial de versiones](../CHANGELOG.md)).
+Publicado por [Delzo.cloud](https://delzo.cloud) bajo licencia [CC BY 4.0](../LICENSE).
+Recordá: es una guía de ejemplo, adaptala a tu infraestructura.*

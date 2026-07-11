@@ -342,6 +342,6 @@ start:
 
 ---
 
-*Reference document — version 1. Published by [Delzo.cloud](https://delzo.cloud) under the
-[CC BY 4.0](../LICENSE) license. Remember: this is an example guide, adapt it to your own
-infrastructure.*
+*Reference document — version **1.0.0** ([version history](../CHANGELOG.md)). Published by
+[Delzo.cloud](https://delzo.cloud) under the [CC BY 4.0](../LICENSE) license. Remember: this is
+an example guide, adapt it to your own infrastructure.*

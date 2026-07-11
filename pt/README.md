@@ -348,6 +348,6 @@ princípio:
 
 ---
 
-*Documento de referência — versão 1. Publicado por [Delzo.cloud](https://delzo.cloud) sob a
-licença [CC BY 4.0](../LICENSE). Lembre-se: é um guia de exemplo, adapte-o à sua
-infraestrutura.*
+*Documento de referência — versão **1.0.0** ([histórico de versões](../CHANGELOG.md)).
+Publicado por [Delzo.cloud](https://delzo.cloud) sob a licença [CC BY 4.0](../LICENSE).
+Lembre-se: é um guia de exemplo, adapte-o à sua infraestrutura.*

@@ -48,6 +48,24 @@ revisão profissional.
 
 ---
 
+## 🔖 Versionado / Versioning / Versionamento
+
+Las baselines se versionan con [Semantic Versioning](https://semver.org/). Cada versión queda
+registrada como un [GitHub Release](https://github.com/delzocloud/delzo-infrastructure-baselines/releases)
+con su tag (`v1.0.0`, `v1.1.0`, …), y el detalle de cambios se lleva en el
+**[CHANGELOG.md](CHANGELOG.md)**.
+
+| Cambio | Ejemplo | Cuándo |
+|---|---|---|
+| **MAJOR** | `2.0.0` | Se cambia o revierte una recomendación existente (guía "breaking"). |
+| **MINOR** | `1.1.0` | Se agrega una sección o recomendación nueva. |
+| **PATCH** | `1.0.1` | Correcciones de redacción, ejemplos o traducciones. |
+
+> Para citar una versión estable y reproducible, referenciá un tag concreto (por ejemplo
+> `.../blob/v1.0.0/es/README.md`) en lugar de la rama `main`.
+
+---
+
 ## 📄 Licencia / License / Licença
 
 [CC BY 4.0](LICENSE) — podés compartir y adaptar el material con atribución · you may share and
